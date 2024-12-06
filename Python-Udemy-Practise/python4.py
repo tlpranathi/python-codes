@@ -1,7 +1,7 @@
 # UDEMY PYTHON COURSE
 
 import PyPDF2
-f = open("C:\\Users\\krish\\OneDrive\\Desktop\\Resume_VibhaMasti.pdf", "rb")
+f = open("---.pdf", "rb")
 reader = PyPDF2.PdfReader(f)                              # not PdfFileReader (removed in python3)
 print(len(reader.pages))                                  # not reader.numPages
 
