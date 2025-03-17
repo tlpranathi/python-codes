@@ -7,3 +7,5 @@ def str_compress(s):
     return s[0] + str(count) + str_compress(s[count:])
 
 print(str_compress(s = input("Enter string: ")))
+
+
